@@ -1,0 +1,11 @@
+Fitter Status : Successful - Thu Dec 21 13:40:47 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : tristate
+Top-level Entity Name : tristate
+Family : MAX II
+Device : EPM2210F324C3
+Timing Models : Final
+Total logic elements : 0 / 2,210 ( 0 % )
+Total pins : 9 / 272 ( 3 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

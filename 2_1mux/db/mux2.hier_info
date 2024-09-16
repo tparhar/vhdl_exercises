@@ -1,0 +1,83 @@
+|mux4
+d0[0] => mux2:lowmux.d0[0]
+d0[1] => mux2:lowmux.d0[1]
+d0[2] => mux2:lowmux.d0[2]
+d0[3] => mux2:lowmux.d0[3]
+d1[0] => mux2:lowmux.d1[0]
+d1[1] => mux2:lowmux.d1[1]
+d1[2] => mux2:lowmux.d1[2]
+d1[3] => mux2:lowmux.d1[3]
+d2[0] => mux2:highmux.d0[0]
+d2[1] => mux2:highmux.d0[1]
+d2[2] => mux2:highmux.d0[2]
+d2[3] => mux2:highmux.d0[3]
+d3[0] => mux2:highmux.d1[0]
+d3[1] => mux2:highmux.d1[1]
+d3[2] => mux2:highmux.d1[2]
+d3[3] => mux2:highmux.d1[3]
+s[0] => mux2:lowmux.sel
+s[0] => mux2:highmux.sel
+s[1] => mux2:finalmux.sel
+y[0] << mux2:finalmux.y[0]
+y[1] << mux2:finalmux.y[1]
+y[2] << mux2:finalmux.y[2]
+y[3] << mux2:finalmux.y[3]
+
+
+|mux4|mux2:lowmux
+d0[0] => y.DATAA
+d0[1] => y.DATAA
+d0[2] => y.DATAA
+d0[3] => y.DATAA
+d1[0] => y.DATAB
+d1[1] => y.DATAB
+d1[2] => y.DATAB
+d1[3] => y.DATAB
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4|mux2:highmux
+d0[0] => y.DATAA
+d0[1] => y.DATAA
+d0[2] => y.DATAA
+d0[3] => y.DATAA
+d1[0] => y.DATAB
+d1[1] => y.DATAB
+d1[2] => y.DATAB
+d1[3] => y.DATAB
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4|mux2:finalmux
+d0[0] => y.DATAA
+d0[1] => y.DATAA
+d0[2] => y.DATAA
+d0[3] => y.DATAA
+d1[0] => y.DATAB
+d1[1] => y.DATAB
+d1[2] => y.DATAB
+d1[3] => y.DATAB
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+sel => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

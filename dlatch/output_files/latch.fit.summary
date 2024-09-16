@@ -1,0 +1,11 @@
+Fitter Status : Successful - Fri Jan 05 12:09:08 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : latch
+Top-level Entity Name : d_latch
+Family : MAX II
+Device : EPM2210F324C3
+Timing Models : Final
+Total logic elements : 4 / 2,210 ( < 1 % )
+Total pins : 9 / 272 ( 3 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

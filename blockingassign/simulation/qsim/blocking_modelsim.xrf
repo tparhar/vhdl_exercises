@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/mrtan/Desktop/Tanveer_test/blockingassign/blocking.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/mrtan/Desktop/Tanveer_test/blockingassign/db/blocking.cbx.xml
+design_name = fulladder
+instance = comp, \b~I\, b, fulladder, 1
+instance = comp, \a~I\, a, fulladder, 1
+instance = comp, \cin~I\, cin, fulladder, 1
+instance = comp, \s~0\, s~0, fulladder, 1
+instance = comp, \cout~0\, cout~0, fulladder, 1
+instance = comp, \s~I\, s, fulladder, 1
+instance = comp, \cout~I\, cout, fulladder, 1

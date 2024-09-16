@@ -1,0 +1,11 @@
+Fitter Status : Successful - Wed Jan 03 11:14:12 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : enablereg
+Top-level Entity Name : flopenr
+Family : MAX II
+Device : EPM240F100C4
+Timing Models : Final
+Total logic elements : 4 / 240 ( 2 % )
+Total pins : 11 / 80 ( 14 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

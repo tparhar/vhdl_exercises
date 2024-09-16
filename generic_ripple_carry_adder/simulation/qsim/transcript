@@ -1,0 +1,44 @@
+# do generic_rca.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:51:33 on Jan 07,2024
+# vcom -work work generic_rca.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package maxii_atom_pack
+# -- Loading package maxii_components
+# -- Compiling entity generic_rca
+# -- Compiling architecture structure of generic_rca
+# End time: 18:51:34 on Jan 07,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:51:34 on Jan 07,2024
+# vcom -work work Waveform.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity generic_rca_vhd_vec_tst
+# -- Compiling architecture generic_rca_arch of generic_rca_vhd_vec_tst
+# End time: 18:51:34 on Jan 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L maxii -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.generic_rca_vhd_vec_tst 
+# Start time: 18:51:34 on Jan 07,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.generic_rca_vhd_vec_tst(generic_rca_arch)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading maxii.maxii_atom_pack(body)
+# Loading maxii.maxii_components
+# Loading work.generic_rca(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading maxii.maxii_io(behave)
+# Loading maxii.maxii_lcell(vital_le_atom)
+# Loading maxii.maxii_asynch_lcell(vital_le)
+# Loading maxii.maxii_lcell_register(vital_le_reg)
+# after#29
+# End time: 18:51:35 on Jan 07,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

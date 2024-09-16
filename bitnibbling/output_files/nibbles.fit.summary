@@ -1,0 +1,11 @@
+Fitter Status : Successful - Sat Dec 23 22:01:00 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : nibbles
+Top-level Entity Name : mux2_8
+Family : MAX II
+Device : EPM2210F324C3
+Timing Models : Final
+Total logic elements : 8 / 2,210 ( < 1 % )
+Total pins : 25 / 272 ( 9 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

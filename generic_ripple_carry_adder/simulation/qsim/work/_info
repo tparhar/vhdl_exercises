@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/mrtan/Desktop/Tanveer_test/generic_ripple_carry_adder/simulation/qsim
+Egeneric_rca
+Z1 w1704678691
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx5 maxii 15 maxii_atom_pack 0 22 YKbF;Xz>AMfIeW9BZZ=^R1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx5 maxii 16 maxii_components 0 22 dFmiCWeK;<H7KniW1jX0I2
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8generic_rca.vho
+Z9 Fgeneric_rca.vho
+l0
+L34
+V[93c68?0CaW0ZU9`^@22N1
+!s100 dW@<;FE=fjUV;NBm`oRo[0
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1704678694
+!i10b 1
+Z12 !s108 1704678693.000000
+Z13 !s90 -work|work|generic_rca.vho|
+Z14 !s107 generic_rca.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 11 generic_rca 0 22 [93c68?0CaW0ZU9`^@22N1
+l74
+L47
+VTdbeDeLRGM<75okGg<4nc3
+!s100 3V[JMBi>z`o`=ij=EGl2c3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Egeneric_rca_vhd_vec_tst
+Z17 w1704678690
+R6
+R7
+R0
+Z18 8Waveform.vwf.vht
+Z19 FWaveform.vwf.vht
+l0
+L31
+V=@h:QfWQUTmTEealPn<NQ1
+!s100 5=RjST?DlOYL1hnZNCzgc1
+R10
+32
+R11
+!i10b 1
+Z20 !s108 1704678694.000000
+Z21 !s90 -work|work|Waveform.vwf.vht|
+Z22 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Ageneric_rca_arch
+R6
+R7
+DEx4 work 23 generic_rca_vhd_vec_tst 0 22 =@h:QfWQUTmTEealPn<NQ1
+l50
+L33
+Vz5l<l]ifzj9j3:9^dcM^B1
+!s100 EIXUnYFzeBio`lbW7ncC:3
+R10
+32
+R11
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R15
+R16

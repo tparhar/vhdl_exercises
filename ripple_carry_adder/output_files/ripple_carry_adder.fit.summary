@@ -1,0 +1,11 @@
+Fitter Status : Successful - Sun Jan 07 00:03:51 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : ripple_carry_adder
+Top-level Entity Name : ripple_carry_adder
+Family : MAX II
+Device : EPM240F100C4
+Timing Models : Final
+Total logic elements : 8 / 240 ( 3 % )
+Total pins : 14 / 80 ( 18 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

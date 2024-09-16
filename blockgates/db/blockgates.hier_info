@@ -1,0 +1,23 @@
+|blockgates
+a => y_and.IN0
+a => y_or.IN0
+a => y_xor.IN0
+a => y_nand.IN0
+a => y_nor.IN0
+a => y_xnor.IN0
+a => y_not.DATAIN
+b => y_and.IN1
+b => y_or.IN1
+b => y_xor.IN1
+b => y_nand.IN1
+b => y_nor.IN1
+b => y_xnor.IN1
+y_not <= a.DB_MAX_OUTPUT_PORT_TYPE
+y_and <= y_and.DB_MAX_OUTPUT_PORT_TYPE
+y_or <= y_or.DB_MAX_OUTPUT_PORT_TYPE
+y_xor <= y_xor.DB_MAX_OUTPUT_PORT_TYPE
+y_nand <= y_nand.DB_MAX_OUTPUT_PORT_TYPE
+y_nor <= y_nor.DB_MAX_OUTPUT_PORT_TYPE
+y_xnor <= y_xnor.DB_MAX_OUTPUT_PORT_TYPE
+
+

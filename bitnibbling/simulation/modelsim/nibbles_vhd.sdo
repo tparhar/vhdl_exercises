@@ -1,0 +1,379 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+
+// 
+// Device: Altera EPM2210F324C3 Package FBGA324
+// 
+
+// 
+// This SDF file should be used for ModelSim-Altera (VHDL) only
+// 
+
+(DELAYFILE
+  (SDFVERSION "2.1")
+  (DESIGN "mux2_8")
+  (DATE "12/23/2023 22:01:07")
+  (VENDOR "Altera")
+  (PROGRAM "Quartus Prime")
+  (VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition")
+  (DIVIDER .)
+  (TIMESCALE 1 ps)
+
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d1\[0\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d0\[0\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\sel\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_asynch_lcell")
+    (INSTANCE \\lsbmux\|y\[0\]\~0\\.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (2410:2410:2410) (2410:2410:2410))
+        (PORT datac (2436:2436:2436) (2436:2436:2436))
+        (PORT datad (3029:3029:3029) (3029:3029:3029))
+        (IOPATH datab combout (462:462:462) (462:462:462))
+        (IOPATH datac combout (319:319:319) (319:319:319))
+        (IOPATH datad combout (125:125:125) (125:125:125))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d0\[1\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d1\[1\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_asynch_lcell")
+    (INSTANCE \\lsbmux\|y\[1\]\~1\\.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (2555:2555:2555) (2555:2555:2555))
+        (PORT datac (2051:2051:2051) (2051:2051:2051))
+        (PORT datad (2019:2019:2019) (2019:2019:2019))
+        (IOPATH datab combout (462:462:462) (462:462:462))
+        (IOPATH datac combout (319:319:319) (319:319:319))
+        (IOPATH datad combout (125:125:125) (125:125:125))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d1\[2\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d0\[2\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_asynch_lcell")
+    (INSTANCE \\lsbmux\|y\[2\]\~2\\.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (2921:2921:2921) (2921:2921:2921))
+        (PORT datac (2419:2419:2419) (2419:2419:2419))
+        (PORT datad (3029:3029:3029) (3029:3029:3029))
+        (IOPATH datab combout (462:462:462) (462:462:462))
+        (IOPATH datac combout (319:319:319) (319:319:319))
+        (IOPATH datad combout (125:125:125) (125:125:125))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d1\[3\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d0\[3\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_asynch_lcell")
+    (INSTANCE \\lsbmux\|y\[3\]\~3\\.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (2500:2500:2500) (2500:2500:2500))
+        (PORT datab (2545:2545:2545) (2545:2545:2545))
+        (PORT datad (3039:3039:3039) (3039:3039:3039))
+        (IOPATH dataa combout (571:571:571) (571:571:571))
+        (IOPATH datab combout (462:462:462) (462:462:462))
+        (IOPATH datad combout (125:125:125) (125:125:125))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d1\[4\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d0\[4\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_asynch_lcell")
+    (INSTANCE \\msbmux\|y\[0\]\~0\\.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (3039:3039:3039) (3039:3039:3039))
+        (PORT datac (2559:2559:2559) (2559:2559:2559))
+        (PORT datad (2695:2695:2695) (2695:2695:2695))
+        (IOPATH datab combout (462:462:462) (462:462:462))
+        (IOPATH datac combout (319:319:319) (319:319:319))
+        (IOPATH datad combout (125:125:125) (125:125:125))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d0\[5\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d1\[5\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_asynch_lcell")
+    (INSTANCE \\msbmux\|y\[1\]\~1\\.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (2411:2411:2411) (2411:2411:2411))
+        (PORT datac (2540:2540:2540) (2540:2540:2540))
+        (PORT datad (3032:3032:3032) (3032:3032:3032))
+        (IOPATH datab combout (462:462:462) (462:462:462))
+        (IOPATH datac combout (319:319:319) (319:319:319))
+        (IOPATH datad combout (125:125:125) (125:125:125))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d1\[6\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d0\[6\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_asynch_lcell")
+    (INSTANCE \\msbmux\|y\[2\]\~2\\.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT dataa (2546:2546:2546) (2546:2546:2546))
+        (PORT datab (2507:2507:2507) (2507:2507:2507))
+        (PORT datac (2418:2418:2418) (2418:2418:2418))
+        (IOPATH dataa combout (571:571:571) (571:571:571))
+        (IOPATH datab combout (462:462:462) (462:462:462))
+        (IOPATH datac combout (319:319:319) (319:319:319))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d0\[7\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\d1\[7\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (708:708:708) (708:708:708))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_asynch_lcell")
+    (INSTANCE \\msbmux\|y\[3\]\~3\\.lecomb)
+    (DELAY
+      (ABSOLUTE
+        (PORT datab (2947:2947:2947) (2947:2947:2947))
+        (PORT datac (2803:2803:2803) (2803:2803:2803))
+        (PORT datad (3031:3031:3031) (3031:3031:3031))
+        (IOPATH datab combout (462:462:462) (462:462:462))
+        (IOPATH datac combout (319:319:319) (319:319:319))
+        (IOPATH datad combout (125:125:125) (125:125:125))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\y\[0\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1055:1055:1055) (1055:1055:1055))
+        (IOPATH datain padio (1454:1454:1454) (1454:1454:1454))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\y\[1\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1404:1404:1404) (1404:1404:1404))
+        (IOPATH datain padio (1454:1454:1454) (1454:1454:1454))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\y\[2\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1423:1423:1423) (1423:1423:1423))
+        (IOPATH datain padio (1454:1454:1454) (1454:1454:1454))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\y\[3\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1057:1057:1057) (1057:1057:1057))
+        (IOPATH datain padio (1454:1454:1454) (1454:1454:1454))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\y\[4\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (2259:2259:2259) (2259:2259:2259))
+        (IOPATH datain padio (1454:1454:1454) (1454:1454:1454))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\y\[5\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (1387:1387:1387) (1387:1387:1387))
+        (IOPATH datain padio (1454:1454:1454) (1454:1454:1454))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\y\[6\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (379:379:379) (379:379:379))
+        (IOPATH datain padio (1454:1454:1454) (1454:1454:1454))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "maxii_io")
+    (INSTANCE \\y\[7\]\~I\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT datain (379:379:379) (379:379:379))
+        (IOPATH datain padio (1454:1454:1454) (1454:1454:1454))
+      )
+    )
+  )
+)

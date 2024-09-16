@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/mrtan/Desktop/Tanveer_test/tristatebuffer/simulation/qsim
+Etristate
+Z1 w1703191570
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx5 maxii 15 maxii_atom_pack 0 22 YKbF;Xz>AMfIeW9BZZ=^R1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx5 maxii 16 maxii_components 0 22 dFmiCWeK;<H7KniW1jX0I2
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8tristate.vho
+Z9 Ftristate.vho
+l0
+L34
+VWhCLDbJUi1KRRDMi^e_>Z2
+!s100 UPGOjhFY57c0K4eVEeW>^2
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1703191571
+!i10b 1
+Z12 !s108 1703191571.000000
+Z13 !s90 -work|work|tristate.vho|
+Z14 !s107 tristate.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 8 tristate 0 22 WhCLDbJUi1KRRDMi^e_>Z2
+l61
+L45
+VM_djWCOgCXBe6NB<V5EZA3
+!s100 g<oQn8nEPfbP[g6QbkLIi2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Etristate_vhd_vec_tst
+Z17 w1703191569
+R6
+R7
+R0
+Z18 8Waveform.vwf.vht
+Z19 FWaveform.vwf.vht
+l0
+L31
+VP:8<WB4>1C9=PcaFb;6YZ2
+!s100 eJBBF10J:DNMH:P;c`PH33
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|Waveform.vwf.vht|
+Z21 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Atristate_arch
+R6
+R7
+DEx4 work 20 tristate_vhd_vec_tst 0 22 P:8<WB4>1C9=PcaFb;6YZ2
+l46
+L33
+V:V^hiio2hG3i6:@8Yeda71
+!s100 `<l;SgOW6OldiYT0JiGQ71
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16

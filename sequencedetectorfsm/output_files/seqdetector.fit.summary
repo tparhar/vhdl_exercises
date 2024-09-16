@@ -1,0 +1,11 @@
+Fitter Status : Successful - Thu Dec 21 11:32:19 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : seqdetector
+Top-level Entity Name : seqdetector
+Family : MAX II
+Device : EPM2210F324C3
+Timing Models : Final
+Total logic elements : 4 / 2,210 ( < 1 % )
+Total pins : 4 / 272 ( 1 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

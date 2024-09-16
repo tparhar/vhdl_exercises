@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Mon Dec 25 19:48:00 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : register
+Top-level Entity Name : flop
+Family : MAX II
+Total logic elements : 4
+Total pins : 9
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

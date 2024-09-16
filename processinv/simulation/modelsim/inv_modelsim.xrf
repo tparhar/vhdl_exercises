@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/mrtan/Desktop/Tanveer_test/processinv/inv.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/mrtan/Desktop/Tanveer_test/processinv/db/inv.cbx.xml
+design_name = inv
+instance = comp, \a[0]~I\, a[0], inv, 1
+instance = comp, \a[1]~I\, a[1], inv, 1
+instance = comp, \a[2]~I\, a[2], inv, 1
+instance = comp, \a[3]~I\, a[3], inv, 1
+instance = comp, \y[0]~I\, y[0], inv, 1
+instance = comp, \y[1]~I\, y[1], inv, 1
+instance = comp, \y[2]~I\, y[2], inv, 1
+instance = comp, \y[3]~I\, y[3], inv, 1

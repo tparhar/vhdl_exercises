@@ -1,0 +1,11 @@
+Fitter Status : Successful - Fri Jan 05 12:28:31 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : inv
+Top-level Entity Name : inv
+Family : MAX II
+Device : EPM240F100C4
+Timing Models : Final
+Total logic elements : 0 / 240 ( 0 % )
+Total pins : 8 / 80 ( 10 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

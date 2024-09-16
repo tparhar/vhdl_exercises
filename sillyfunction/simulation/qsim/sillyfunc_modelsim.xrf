@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/mrtan/Desktop/Tanveer_test/sillyfunction/sillyfunc.vhd
+source_file = 1, C:/Users/mrtan/Desktop/Tanveer_test/sillyfunction/Waveform.vwf
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/mrtan/Desktop/Tanveer_test/sillyfunction/db/sillyfunc.cbx.xml
+design_name = sillyfunc
+instance = comp, \a~I\, a, sillyfunc, 1
+instance = comp, \c~I\, c, sillyfunc, 1
+instance = comp, \b~I\, b, sillyfunc, 1
+instance = comp, \y~0\, y~0, sillyfunc, 1
+instance = comp, \y~I\, y, sillyfunc, 1

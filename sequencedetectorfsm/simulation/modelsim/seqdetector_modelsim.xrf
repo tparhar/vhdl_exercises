@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/mrtan/Desktop/Tanveer_test/sequencedetectorfsm/seqdetector.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/mrtan/Desktop/Tanveer_test/sequencedetectorfsm/db/seqdetector.cbx.xml
+design_name = seqdetector
+instance = comp, \clk~I\, clk, seqdetector, 1
+instance = comp, \a~I\, a, seqdetector, 1
+instance = comp, \reset~I\, reset, seqdetector, 1
+instance = comp, \state.S0\, state.S0, seqdetector, 1
+instance = comp, \state.S2\, state.S2, seqdetector, 1
+instance = comp, \state.S3\, state.S3, seqdetector, 1
+instance = comp, \state.S4\, state.S4, seqdetector, 1
+instance = comp, \y~I\, y, seqdetector, 1
